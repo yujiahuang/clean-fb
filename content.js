@@ -1,9 +1,13 @@
-function shrink() {
+function betterReading() {
   var css = '\
     ._58jw { \
       font-size: 15px !important; \
       line-height: 1.38 !important; \
       font-weight: normal !important; \
+    }\
+    ._5v3q ._5pbx p {\
+      line-height: 1.4;\
+      margin: 20px 0;\
     }\
   ';
   var head = document.head || document.getElementsByTagName('head')[0];
@@ -16,4 +20,4 @@ function shrink() {
   }
   head.appendChild(style);
 }
-shrink();
+betterReading();

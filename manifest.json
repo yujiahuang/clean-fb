@@ -3,7 +3,7 @@
   "name": "Facebook Small Font",
   "short_name": "FB Small",
   "description": "Make the font of status on facebook small. Just like the good old days.",
-  "version": "1.2",
+  "version": "1.3",
   "content_scripts": [
     {
       "matches": [
