@@ -19,15 +19,15 @@ function insertCss() {
     }
 
     /* Tab Items */
-    [role="navigation"] > ul > li:has([aria-label="Watch"]) {
+    [role="navigation"] > ul > li:has(> [aria-label="Watch"]) {
       display: none;
     }
 
-    [role="navigation"] > ul > li:has(a[href="/marketplace/?ref=app_tab"]) {
+    [role="navigation"] > ul > li:has(> a[href="/marketplace/?ref=app_tab"]) {
       display: none;
     }
 
-    [role="navigation"] > ul > li:has(a[href="/gaming/?ref=games_tab"]) {
+    [role="navigation"] > ul > li:has(> a[href="/gaming/?ref=games_tab"]) {
       display: none;
     }
 
@@ -54,12 +54,21 @@ function insertCss() {
     [aria-label="你可能認識的朋友"] {
       display: none;
     }
-    div:has([aria-label="你可能認識的朋友"]) {
+    div > div > div > div:has(> [aria-label="你可能認識的朋友"]) {
       display: none;
     }
 
     /* Friend Invites */
     [role="complementary"] > div > div > div > div > div > div:has(a[href="/friends/"]) {
+      display: none;
+    }
+
+    /* Shorts */
+
+    [aria-label="連續短片"] {
+      display: none;
+    }
+    div > div > > div > div:has(> [aria-label="連續短片"]) {
       display: none;
     }
 

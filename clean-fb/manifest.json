@@ -3,7 +3,7 @@
   "name": "Clean Facebook",
   "short_name": "Clean FB",
   "description": "讓臉書版面他媽的別那麼擠，然後段落間加上他媽的空格。",
-  "version": "1.6",
+  "version": "1.7",
   "content_scripts": [
     {
       "matches": [
