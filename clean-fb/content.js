@@ -17,6 +17,9 @@ function insertCss() {
     [aria-label="限時動態"] {
       display: none !important;
     }
+    div:has(> div > div > div > div > div > a > div > div > div > [aria-label="取消噤聲"]) {
+      display: none !important;
+    }
 
     /* Tab Items */
     [role="navigation"] > ul > li:has(> [aria-label="Watch"]) {
